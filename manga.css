@@ -1,0 +1,307 @@
+    * {
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+
+    body {
+        width: 100%;
+        height: 100vh;
+        background: rgb(58, 58, 58);
+        font-family: 'Delicious Handrawn', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header {
+        width: 100%;
+        height: 100%;
+        position: relative;
+        border-radius: 30px;
+        overflow: hidden;
+        box-shadow: 3px 15px 30px -2px black;
+        background: url("https://wallpaperaccess.com/full/126971.jpg");
+        background-size: cover;
+    }
+
+    header nav {
+        width: 100%;
+        height: 10%;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 50px;
+    }
+
+    .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo img {
+        width: 100px;
+        margin: -30px;
+    }
+
+    .logo ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+    }
+
+    .logo ul li {
+        text-decoration: none;
+        color: red;
+        padding: 5px 15px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .logo li a {
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+        padding: 50px;
+        font-weight: bold;
+        transition: .3 linear;
+    }
+
+    .logo li a:hover {
+        color: red;
+        font-weight: lighter;
+    }
+
+    .search {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 30px;
+        top: 20px;
+    }
+
+    .search input {
+        padding: 3px 8px;
+        border-radius: 30px;
+        background: rgb(231, 231, 236);
+        color: #490505;
+        margin-right: 10px;
+        font-weight: bolder;
+        line-height: 24px;
+        border: none;
+        outline: none;
+    }
+
+    .search img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .search1 {
+        width: 370px;
+        top: 70px;
+        position: absolute;
+        margin-right: 85px;
+        z-index: 1000;
+        overflow-y: auto;
+    }
+
+    .search1 .card h3 , p ,i {
+        font-size: 14px;
+    }
+
+    .card {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        justify-content: space-between;
+        text-decoration: none;
+        margin: 3px auto;
+        text-decoration: none;
+        display: none;
+    }
+
+    .card::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgb(145, 217, 218);
+        border-radius: 5px;
+        z-index: -1;
+        display: flex;
+    }
+
+    .card img {
+        width: 40px;
+        height: 90%;
+        border-radius: 10px;
+        margin-left: 8px;
+        margin-top: 3px;
+    }
+
+
+    .content {
+        position: relative;
+        color: rgb(225, 238, 39);
+        margin-top: 50px;
+        padding-left: 40px;
+    }
+
+    .content h1 {
+        font-size: 45px;
+        color: #df3030;
+    }
+    .detail {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .detail h6 {
+        font-size: 35px;
+        color: red;
+        margin-right: 15px;
+    }
+
+    .detail h5 {
+        font-size: 35px;
+        color: rgb(87, 211, 190);
+        margin-right: 15px;
+    }
+
+    .detail h4 {
+        font-size: 35px;
+        color: rgb(87, 211, 190);
+        margin-right: 15px;
+    }
+
+    .detail h3 {
+        font-size: 35px;
+        color: rgb(87, 211, 190);
+        margin-right: 15px;
+    }
+
+    .detail h3 i {
+        margin-right: 5px;
+    }
+
+    section {
+        position: absolute;
+        width: 100%;
+        height: auto;
+        padding: 0px 60px;
+        bottom: 20px;
+        color: #ce43ce;
+    }
+
+    .Featureds {
+        display: flex;
+        width: 100%;
+    }
+
+    .featureds {
+        position: relative;
+        width: 100%;
+        height: 210px;
+        margin-top: 13px;
+        display: flex;
+        scroll-behavior: smooth;
+    }
+
+    .featureds::-webkit-scrollbar {
+        display: none;
+    }
+
+    .featured {
+        position: relative;
+        min-width: 130px;
+        height: 180px;
+        border-radius: 60px;
+        margin-right: 13px;
+        transition: .5s linear;
+        background: none;
+
+    }
+
+    .featured img {
+        width: 130px;
+    }
+
+    h3 {
+        font-size: 25px;
+        color: red;
+        font-weight: 900;
+        font-style: italic;
+    }
+
+    #prev,#next {
+        position: absolute;
+        top: 50%;
+        left: 3%;
+        width: 35px;
+        height: 35px;
+        background: rgb(220, 236, 161);
+        color: rgb(31, 16, 16);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 45px;
+        font-size: 25px;
+        cursor: pointer;
+        transition: all 0.5 linear;
+        z-index: 100;
+        opacity: 0;
+    }
+
+    #prev {
+        left: 23px;
+    }
+
+    #next {
+        left: unset;
+        right: 3%;
+    }
+
+    .film {
+        width: 100%;
+        border-radius: 11px;
+        position: relative;
+        height: 169px;
+        margin: 0 auto;
+        justify-content: space-between;
+    }
+
+    section:hover #prev {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    section:hover #next {
+        opacity: 1;
+        transition: 1s;
+    }
+
+    .featured:hover {
+        width: 250px;
+        height: 168px;
+        overflow: hidden;
+        transition: all .5s ease;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        border-radius: 30px;
+        -webkit-box-shadow: 3px 3px 30px 5px rgba(231, 235, 15, 0.67);
+        -moz-box-shadow: 3px 3px 30px 5px rgba(12, 226, 12, 0.67);
+        box-shadow: 3px 3px 30px 5px rgba(255, 0, 34, 0.67);
+    }
+.buttons{
+    font-size: 30px;
+    color: white;
+}
+.btn1:hover {background-color: red;}
+.btn2:hover {background-color: red;}
+      

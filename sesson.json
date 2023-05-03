@@ -1,0 +1,106 @@
+[
+    {
+        "photo": "images/naruto.jpg",
+        "name": "Naruto shippuden",
+        "category": "Action",
+        "date": "2016",
+        "rate": "9.2",
+        "youtube": "QczGoCmX-pI"
+    },
+    {
+        "photo": "images/bleach.jpg",
+        "name": "Bleach Movie 2",
+        "category": "Action",
+        "date": "2007",
+        "rate": "8",
+        "youtube": "IEjoyTk8AIs"
+    },
+    {
+        "photo": "images/dragonball.jpg",
+        "name": "Supper Dragon ball",
+        "category": "Action",
+        "date": "2015",
+        "rate": "9.4",
+        "youtube": "giKGGDfT0DQ"
+    },
+    {
+        "photo": "images/sololevel.jpg",
+        "name": "Solo Leveling",
+        "category": "Action",
+        "date": "2024",
+        "rate": "9.2",
+        "youtube": "Pu9b65JqxEk"
+    },
+    {
+        "photo": "images/fairytail.jpg",
+        "name": "Fairy Tail",
+        "category": "Action",
+        "date": "2014",
+        "rate": "8.6",
+        "youtube": "4KSN7mxhiYE"
+    },
+    {
+        "photo": "images/toriko.jpg",
+        "name": "Toriko",
+        "category": "Action",
+        "date": "2011",
+        "rate": "9.5",
+        "youtube": "7SrctLminyY"
+    },
+    {
+        "photo": "images/sword-art-online.jpg",
+        "name": "Sword Art Online",
+        "category": " Fantasy",
+        "date": "2012",
+        "rate": "9.6",
+        "youtube": "w6oKhvsO8EA"
+    },
+    {
+        "photo": "images/beelzebub.jpg",
+        "name": "Beelzebub",
+        "category": "School",
+        "date": "2011",
+        "rate": "9.6",
+        "youtube": "DyGpCgHbLBo"
+    },
+    {
+        "photo": "images/inuyasha.jpg",
+        "name": "InuYasha",
+        "category": "Adventure",
+        "date": "2000",
+        "rate": "9.1",
+        "youtube": "54tcuEEoG3w"
+    },
+    {
+        "photo": "images/yugi.jpg",
+        "name": "YuGiOh Duel Monsters",
+        "category": "Shounen",
+        "date": "2000",
+        "rate": "8.9",
+        "youtube": "nLn4J50xjIw"
+    },
+    {
+        "photo": "images/onepunchman.jpg",
+        "name": "One Punch Man",
+        "category": "Supernatural",
+        "date": "2015",
+        "rate": "9.7",
+        "youtube": "Poo5lqoWSGw"
+    },
+    {
+        "photo": "images/images.jpg",
+        "name": "Kimetsu no Yaiba Season 3",
+        "category": " Demons",
+        "date": "2023",
+        "rate": "9.5",
+        "youtube": "1HQirPHp0P4"
+    },
+    {
+        "photo": "images/onepiece.jpg",
+        "name": "One Piece",
+        "category": "Fantasy",
+        "date": "1999",
+        "rate": "9.1",
+        "youtube": "1gGt1Mg_zSo"
+    }
+]
